@@ -1,0 +1,39 @@
+/* Header.css */
+
+.header {
+    background-color: #0198E1; /* A deep underwater blue */
+    color: white;
+    padding: 3px 8px; /* Further reduced padding for an even thinner appearance */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* A playful font */
+    font-size: 0.8em; /* Further reduced font size */
+    position: fixed; /* Fixed position */
+    top: 0; /* Stick to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    z-index: 1000; /* High z-index to ensure it stays on top */
+}
+
+.logout-button {
+    background-color: #2a44ec; /* Coral color */
+    color: white;
+    border: none;
+    padding: 2px 6px; /* Further reduced padding for an even thinner button */
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+  
+.logout-button:hover {
+    background-color: #FF8267;
+}
+  
+.logout-button svg {
+    margin-right: 5px; /* Reduced spacing between icon and text */
+    font-size: 18px; /* Further reduced icon size */
+}

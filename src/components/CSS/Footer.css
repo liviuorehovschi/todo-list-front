@@ -1,0 +1,39 @@
+/* Footer.css */
+
+.footer {
+    background-color: #0198E1; /* A deep underwater blue */
+    color: white;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    /* Removed position: fixed, bottom, and left properties */
+    width: 100%;
+    padding: 15px 0; /* Adjust padding for additional content */
+}
+
+/* Rest of your CSS stays the same */
+
+  
+  .footer h3 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .footer a:hover {
+    color: #f8f8f8; /* A slightly lighter shade for hover effect */
+    text-decoration: underline;
+  }
+  

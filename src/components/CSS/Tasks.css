@@ -1,0 +1,62 @@
+/* Tasks.css */
+
+.tasks-bg {
+    background-image: url('../../images/Wallpaper3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center in viewport */
+    align-items: center;
+    padding: 20px;
+    padding-top: var(--header-height); /* Adjust top padding to account for header height */
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white to allow underwater theme to show through */
+    padding: 0.6rem 1rem;
+    margin: 1rem 0; /* Add more space between tasks */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 100%;
+    max-width: 600px; /* Restrict maximum width for better readability */
+}
+
+.task h5 {
+    color: #022c43; /* Dark blue color for contrast */
+    font-family: 'Arial', sans-serif; /* Common font that does not need to be imported */
+}
+
+.task .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px; /* Increase gap for visual separation */
+}
+
+.task .buttons button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #0294a5; /* Ocean blue color for buttons */
+    color: #fff;
+    font-weight: 500;
+    border-radius: 50%; /* Circular buttons to mimic bubbles */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task .buttons button:hover {
+    background-color: #036672; /* Darker shade on hover */
+}
+
+/* Global variable for consistent spacing */
+:root {
+    --header-height: 80px; /* Adjust based on actual header height */
+}
+
+/* Add more styles as needed... */
